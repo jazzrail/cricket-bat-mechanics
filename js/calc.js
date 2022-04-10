@@ -1,6 +1,6 @@
 document.getElementById('btn-calc').addEventListener('click', (e) => {
 	e.preventDefault();
-	const handleLen = parseFloat(document.querySelector('#handleLen').value) || 0;
+	const handleLen = parseFloat(document.querySelector('#handleLen').value);
 	const bladeLen = parseFloat(document.querySelector('#bladeLen').value) || 0;
 	const batMass = parseFloat(document.querySelector('#batMass').value) || 0;
 	const balPoint = parseFloat(document.querySelector('#balPoint').value) || 0;

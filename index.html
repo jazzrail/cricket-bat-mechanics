@@ -21,7 +21,7 @@
 		<!-- navbar -->
 		<nav class="main-nav">
 			<div class="main-nav__logo">
-				<img id="home" src="./images/dc-logo.png" alt="DC Navaication Image" class="main-nav__logo-img">
+				<img id="home" src="./images/dc-logo.png" alt="DC Image" class="main-nav__logo-img">
 				<p>Cricket Bat Mechanics</p>
 			</div>
 
@@ -66,75 +66,54 @@
 	</header>
 	<!-- end of header  -->
 
-	<section id="instructions" class="section instructions">
-		<!-- instructions title -->
-		<div class="section-title">
-			<h2><span>Instructions</span></h2>
-			<div class="instructions-intro">
-				<h4>
-					To make the measurements you will need:
-
-				</h4>
-				<ul>
-					<li>A digital kitchen scale (that can measure up to 2Kg)</li>
-					<li>A 12in/30cm ruler.</li>
-				</ul>
-			</div>
-		</div>
-
-		<!-- end of instructions title -->
-
-		<div class="section-center instructions-center" id="instructions">
-			<!-- single instruction 1 -->
-			<article class="instruction">
-				<h4 class="instruction-title">Measure the handle length</h4>
-				<div class="instruction-info">
-					<p class="instruction-text">With a ruler place it so the edge runs through the shoulders of
-						the top of the blade (see Figure). Mark a feint pencil line
-						through the splice. With the ruler measure the distance from this
-						line to the top of the handle. You should be able to measure to
-						the nearest 1mm. Record this in metres. For example, if you
-						measure the length as 301 mm, this is 0.301 m.</p>
-				</div>
-			</article>
-			<!-- end of single instruction 1 -->
-
-			<!-- single instruction 2 -->
-			<article class="instruction">
-				<h4 class="instruction-title">Measure the blade length</h4>
-				<div class="instruction-info">
-					<p class="instruction-text">Now measure the distance from the shoulder line to the bottom of the
-						blade. Record this in metres.<br>
-						Total bat length is simply the sum of the handle and blade length.</p>
-				</div>
-			</article>
-			<!-- end of single instruction 2 -->
-
-			<!-- single instruction 3 -->
-			<article class="instruction">
-				<h4 class="instruction-title">Measuring Bat Mass <br> & Balance Point</h4>
-				<div class="instruction-info">
-					<p class="instruction-text">Place the scales on a hard flat surface long enough to take the whole
-						bat.
-						Turn on the scales, and ensure they are reading zero. Place the toe end of the bat on the centre
-						of the scales and rest
-						the handle end on the flat surface. Read and note the value shown (call this w1). Remove the bat
-						from the scales. Ensure
-						the reading is zero. Now place the middle of the bat on the scales. Read and note the value
-						shown (this is the total bat
-						mass). Record the measurements in Kg. For example, if your scales read 1215 grammes, this is
-						1.215Kg. Use all the
-						numbers provided by your scale reading.<br>
-						Balance point is calculated as the total bat length multiplied by w1, which is then divided by
-						total bat mass.<br>
-						Balance point = (total bat length x w1) / total bat mass
-						(length measurements need to be in units of metres, and mass in units of Kg)
-					</p>
-				</div>
-			</article>
-			<!-- end of single instruction 3 -->
-		</div>
+	<!-- Instructions -->
+	<section id="instructions" class="instructions">
+		<h2>Instructions on how to generate the <span class=input>INPUTS</span> to calculate your bat’s Moment of
+			Inertia</h2>
+		<p class="instructions_intro">
+			To make the measurements you will need: <br>
+			A digital kitchen scale (that can measure up to 2Kg)<br>
+			A 12in/30cm ruler
+		</p>
+		<ol class="steps">
+			<li>
+				<strong>Measure the handle length.</strong>
+				With a ruler place it so the edge runs through the shoulders of the top of the blade (see Figure). Mark
+				a feint
+				pencil line through the splice. With the ruler measure the distance from this line to the top of the
+				handle.
+				<img src="./images/measure-handle-length.png" alt="cricket bat handle showing measurement lines"
+					class="bat-handle-img">
+				You
+				should be able to measure to the nearest 1mm. Record this in metres. For example, if you measure the
+				length as
+				301 mm, this is 0.301 m.
+			</li>
+			<li>
+				<strong>Measure the blade length</strong>
+				Now measure the distance from the shoulder line to the bottom of the blade. Record this in metres.
+				Total bat length is simply the sum of the handle and blade length.
+			</li>
+			<li>
+				<strong>Measuring Bat Mass & Balance Point</strong>
+				Place the scales on a hard flat surface long enough to take the whole bat.
+				Turn on the scales, and ensure they are reading zero. Place the toe end of the bat on the centre of the
+				scales
+				and rest the handle end on the flat surface. Read and note the value shown (call this w1). Remove the
+				bat from
+				the scales. Ensure the reading is zero. Now place the middle of the bat on the scales. Read and note the
+				value
+				shown (this is the total bat mass). Record the measurements in Kg. For example, if your scales read 1215
+				grammes, this is 1.215Kg. Use all the numbers provided by your scale reading.<br><br>
+				Balance point is calculated as the total bat length multiplied by w1, which is then divided by total
+				batmass.<br>
+				Balance point = (total bat length x w1) / total bat mass
+				(length measurements need to be in units of metres, and mass in units of Kg)
+			</li>
+		</ol>
 	</section>
+	<!-- End of Instructions -->
+
 
 	<!-- Calculation -->
 	<div id="calc" class="calc-main">
