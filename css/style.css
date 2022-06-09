@@ -647,14 +647,15 @@ Calculation
 }
 
 .form-control input {
-	background: transparent;
+	background: #ffffff2c;
 	border: 0;
-	border-bottom: 2px solid #fff;
+	// border-bottom: 2px solid #fff;
 	display: block;
 	width: 100%;
 	padding: 15px 0;
 	font-size: 18px;
-	color: #fff;
+	// color: #fff;
+	text-align: center;
 }
 
 .form-control input:focus,
@@ -668,6 +669,7 @@ h4.res {
 	margin-top: 25px;
 	transition: var(--transition);
 	letter-spacing: var(--spacing);
+	font-size: 1.18rem;
 }
 /* end of calculation */
 /*
