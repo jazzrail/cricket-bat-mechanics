@@ -20,24 +20,39 @@
 	<header id="header">
 		<!-- navbar -->
 		<nav class="main-nav">
-			<div class="main-nav__logo">
+			<div id="home" class="main-nav__logo">
 				<img id="home" src="./images/dc-logo.png" alt="DC Image" class="main-nav__logo-img">
 				<p>Cricket Bat Mechanics</p>
 			</div>
 
 
-			<ul class="nav-links">
-				<li><a href="#instructions" class="nav-link">Instructions</a></li>
-				<li><a href="#calc" class="nav-link">Calculate</a></li>
-				<li><a onClick="javascript:window.open('mailto:jazzrail@hotmail.com', 'mail');event.preventDefault()"
-						href="mailto:jazzrail@hotmail.com" id="contact" class="nav-link scroll-link">contact</a></li>
-			</ul>
+			<div class="navbar">
+				<div class="hamburger-menu">
+					<div class="line line-1"></div>
+					<div class="line line-2"></div>
+					<div class="line line-3"></div>
+				</div>
+				<!-- end of hamburger -->
 
-			<div class="burger">
-				<div class="line1"></div>
-				<div class="line2"></div>
-				<div class="line3"></div>
+				<div class="nav-list">
+					<li class="nav-item">
+						<a href="#home" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#instructions" class="nav-link">Instructions</a>
+					</li>
+					<li class="nav-item">
+						<a href="#calc" class="nav-link">Calculate</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+				</div>
 			</div>
+			<!-- end of navbar -->
 		</nav>
 		<!-- hero -->
 		<div id="about" class="hero">
@@ -63,12 +78,13 @@
 				<a href="#instructions" class="btn hero-btn scroll-link">Instructions</a>
 			</div>
 		</div>
+		<!-- end hero -->
 	</header>
 	<!-- end of header  -->
 
 	<!-- Instructions -->
 	<section id="instructions" class="instructions">
-		<h2>Instructions on how to generate the <span class=input>INPUTS</span> to calculate your bat’s Moment of
+		<h2>Instructions on how to generate the <span class=input>Inputs</span> to calculate your bat’s Moment of
 			Inertia</h2>
 		<p class="instructions_intro">
 			To make the measurements you will need: <br>
@@ -113,7 +129,6 @@
 		</ol>
 	</section>
 	<!-- End of Instructions -->
-
 
 	<!-- Calculation -->
 	<div id="calc" class="calc-main">
