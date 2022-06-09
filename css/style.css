@@ -139,7 +139,7 @@ nav {
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
-	font-size: 0.85rem;
+	font-size: 1rem;
 	color: var(--clr-white);
 	align-items: center;
 }
@@ -154,6 +154,18 @@ nav {
 	width: 40px;
 	border-radius: 50%;
 	display: inline-block;
+}
+
+@media(max-width:465px) {
+	p.logo-text {
+		display: none;
+	}
+}
+
+@media(max-width:380px) {
+	.hero-banner h1 {
+    font-size: 2rem;
+}
 }
 
 .main-nav {
