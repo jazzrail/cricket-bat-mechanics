@@ -1,25 +1,45 @@
-document.getElementById('btn-calc').addEventListener('click', (e) => {
-	e.preventDefault();
-	const handleLen = parseFloat(document.querySelector('#handleLen').value);
-	const bladeLen = parseFloat(document.querySelector('#bladeLen').value) || 0;
-	const batMass = parseFloat(document.querySelector('#batMass').value) || 0;
-	const balPoint = parseFloat(document.querySelector('#balPoint').value) || 0;
-	const res = document.getElementById('res');
+document.getElementById("btn-calc").addEventListener("click", (e) => {
+  e.preventDefault();
 
-	// 1
-	const bladeMass =
-		(batMass * handleLen - 2 * batMass * balPoint) / (-handleLen - bladeLen);
-	// 2
-	const handleMass = batMass - bladeMass;
-	// 3
-	let finalCalculation =
-		(handleMass * handleLen ** 2) / 3 +
-		((bladeMass * bladeLen ** 2) / 12 +
-			bladeMass * (handleLen + bladeLen / 2) ** 2);
+  const handleLen = parseFloat(document.querySelector("#handleLen").value);
+  if (document.getElementById("handleLen").value.length == 0) {
+    alert("Please enter integer or decimal in each of the fields");
+    document.classList.remove("empty-field");
+  }
 
-	let result = finalCalculation.toFixed(3);
+  const bladeLen = parseFloat(document.querySelector("#bladeLen").value);
+  if (document.getElementById("bladeLen").value.length == 0) {
+    alert("Please enter integer or decimal in each of the fields");
+    document.classList.remove("empty-field");
+  }
+  const batMass = parseFloat(document.querySelector("#batMass").value);
+  if (document.getElementById("batMass").value.length == 0) {
+    alert("Please enter integer or decimal in each of the fields");
+    document.classList.remove("empty-field");
+  }
 
-	res.innerHTML = `The MOI =
+  const balPoint = parseFloat(document.querySelector("#balPoint").value);
+  if (document.getElementById("balPoint").value.length == 0) {
+    alert("Please enter integer or decimal in each of the fields");
+    document.classList.remove("empty-field");
+  }
+
+  const res = document.getElementById("res");
+
+  // 1
+  const bladeMass =
+    (batMass * handleLen - 2 * batMass * balPoint) / (-handleLen - bladeLen);
+  // 2
+  const handleMass = batMass - bladeMass;
+  // 3
+  let finalCalculation =
+    (handleMass * handleLen ** 2) / 3 +
+    ((bladeMass * bladeLen ** 2) / 12 +
+      bladeMass * (handleLen + bladeLen / 2) ** 2);
+
+  let result = finalCalculation.toFixed(3);
+
+  res.innerHTML = `The MOI =
 		${result} Kg-m2`;
 });
 
