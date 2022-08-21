@@ -199,7 +199,7 @@ nav {
 	width: 35px;
 	height: 30px;
 	position: fixed;
-	top: 20px;
+	top: 35px;
 	right: 50px;
 	cursor: pointer;
 	display: flex;
@@ -409,6 +409,7 @@ Hero
 
 .hero-banner h1 {
 	text-transform: uppercase;
+	margin-bottom: 3rem;
 }
 .hero-banner p {
 	max-width: 35rem;
@@ -424,6 +425,7 @@ Hero
 	font-size: 1.25rem;
 	background: var(--clr-white);
 	color: var(--clr-primary-5);
+	margin-top: 3rem;
 }
 .hero-btn:hover {
 	background: transparent;
