@@ -426,6 +426,7 @@ Hero
 	background: var(--clr-white);
 	color: var(--clr-primary-5);
 	margin-top: 3rem;
+	margin-bottom: 2rem;
 }
 .hero-btn:hover {
 	background: transparent;
@@ -657,6 +658,9 @@ Calculation
 	transform: scale(0.98);
 }
 
+#res {
+	transition: all 2s;
+}
 .text {
 	margin-top: 30px;
 }
