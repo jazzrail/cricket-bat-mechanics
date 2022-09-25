@@ -135,16 +135,14 @@ nav {
 	background-color: var(--clr-primary-5);
 }
 
-.main-nav__logo {
-	width: 350px;
-	display: flex;
-	justify-content: space-between;
-	font-size: 1rem;
-	color: var(--clr-white);
-	align-items: center;
-}
+// .main-nav__logo {
+// 	font-size: 1rem;
+// 	color: var(--clr-white);
+// 	// align-items: center;
+// }
 
 .main-nav__logo p {
+	font-size: 1rem;
 	margin-bottom: 0px;
 	color: var(--clr-white);
 }
@@ -716,7 +714,7 @@ h4.res {
 
 .empty-field {
 	display: none;
-	
+
 }
 
 /* end of calculation */
