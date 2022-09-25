@@ -3,3 +3,86 @@
 git push origin main
 
 Jazzrail
+
+From: Curtis, David <D.Curtis@shu.ac.uk>
+Sent: 24 August 2022 15:37
+To: Alan Williams <atawilliams@outlook.com>
+Subject: RE: Batty - done
+To go over on Friday.
+
+Cheers
+DC
+
+Title
+
+I’d like to change the site name to ‘Cricket Bat Moment of Inertia’. Reason is ‘Mechanics’ is too broad now, as I don’t intend to extend it beyond the MOI feature.
+// Done
+
+
+Yes, lose the DC logo.  I don’t want to be sued by Batman and Superman
+// Done
+
+
+[can we change the font used for the body text, it is a bit stretched and hard to read]
+// changed tio RToboto and removed letter-spacing
+
+
+
+Edited text to upload:
+
+This website provides the means for you to generate a moment of inertia (MOI) measure for your cricket bat.
+
+
+
+What is Moment of Inertia and Why is it important?
+
+The quality and performance of bat materials aside, a functional bat is one that the player can manoeuvre at a range of speeds to make controlled strikes in defence or in attack for run scoring.   MOI is the quantified value of the phenomena that cricketers refer to subjectively as ‘swingweight’ or ‘pick up’.   If you want to have a bat that is optimised to your physical abilities and skill level then buying on MOI is an important step towards that.
+
+Currently no-one sells bats with MOI provided.
+
+In future all cricket bats could be sold with this value provided, and move away from static bat weight.
+
+This blog post provides more detail on this[link to be provided when blog written]
+
+Methods based on peer-reviewed research
+
+If you want to read a more scientific explanation of how this app has been derived, my research and the associated published peer-reviewed research paper validating the method can be read here.
+
+Calculation Box
+
+Could the result of the calculation be placed below the Calculate button?  It is a more logical place for it to appear.
+
+Can the word ‘Calculate’ in the button be capitalised, and made a font size bigger.
+
+This may be too difficult, but could a range be applied for permissible values? So that if someone enters a value that is outside of the range puts up an error pop-up?
+
+Is there a way of recording the number of times the Calculate function is used, and where those users are from?  This is actually quite important to see if it is being used, and where.
+
+
+About
+
+Can this be a section that is the very last: and have this text:
+
+The website content and methods in this website have been developed by David Curtis, principal research fellow in the Sports Engineering research group at Sheffield Hallam University, England. Read more...[link to my SHU profile]
+
+
+
+Contact
+
+Could another ‘page’/’section’ be tagged on after About, and this can be added:
+
+
+
+For any questions and queries please email [TBC]
+
+
+
+Tell us what you think:
+
+Please let me know what you think of Cricket Bat MOI.  I am happy to hear about feature requests, bugs and design suggestions.
+
+
+
+
+
+Social Media links?  Not needed.
