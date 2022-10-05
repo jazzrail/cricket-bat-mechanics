@@ -689,7 +689,7 @@ Calculation
 	width: 100%;
 	padding: 15px 0;
 	font-size: 18px;
-	// color: #fff;
+	color: rgba(255, 255, 255, 0.796);
 	text-align: center;
 }
 
@@ -714,7 +714,8 @@ h4.res {
 }
 .number-only:invalid + .error-msg {
   display: inline;
-  color: red;
+  color: rgba(8, 6, 6, 0.848);
+	font-size: 0.85rem;
 }
 
 .empty-field {

@@ -35,7 +35,7 @@
 
 				<div class="nav-list">
 					<li class="nav-item">
-						<a href="#home" class="nav-link">Home</a>
+						<a href="#about" class="nav-link">Home</a>
 					</li>
 					<li class="nav-item">
 						<a href="#about" class="nav-link">About</a>
@@ -144,13 +144,12 @@
 	<div id="calc" class="calc-main">
 		<div class="container">
 			<h3>Enter Values</h3>
-			<h4 id="res" class="res"></h4>
 			<form>
 				<div class="form-control">
 					<label>Handle Length</label>
-					<input type='tel' class='number-only' pattern='[+\-]?\d*\.?\d+' name="handleLen" id="handleLen"
+					<input type='text' step=".03" class='number-only' pattern='[+\-]?\d*\.?\d+' name="handleLen" id="handleLen"
 						placeholder="Example: 0.3" />
-					<span class='error-msg'>Please enter a valid integer or float value.</span>
+					<span class='error-msg'>Please enter integer or float (max 3 decimal places).</span>
 				</div>
 				<div class="form-control">
 					<label>Blade Length</label>
@@ -173,6 +172,8 @@
 
 				<div>
 					<button type="submit" class="btn-calc" id="btn-calc">Calculate</button>
+					<h4 id="res" class="res"></h4>
+
 				</div>
 			</form>
 		</div>
@@ -186,7 +187,7 @@
 			<ul class="footer-links">
 				<!-- home-link -->
 				<li>
-					<a href="#home" class="footer-link scroll-link">home</a>
+					<a href="#about" class="footer-link scroll-link">home</a>
 				</li>
 				<!-- end of home-link -->
 
@@ -228,20 +229,14 @@
 			<!-- end of footer links -->
 
 			<!-- footer icons -->
-			<ul class="footer-icons">
-				<!-- single icon -->
+			<!-- <ul class="footer-icons">
 				<li><a href="https://twitter.com/davidcurtis6" target="_blank" class="footer-icon"><i
 							class="fab fa-twitter"></i></a></li>
-				<!-- end of single icon -->
-				<!-- single icon -->
 				<li><a href="http://allaboutcricketbats.blogspot.com/" target="_blank" class="footer-icon"><i
 							class="fab fa-blogger-b"></i></a></li>
-				<!-- end of single icon -->
-				<!-- single icon -->
 				<li><a href="https://www.linkedin.com/in/davidcurtis6/" target="_blank" class="footer-icon"><i
 							class="fab fa-linkedin"></i></a></li>
-				<!-- end of single icon -->
-			</ul>
+			</ul> -->
 			<!-- end footer icons -->
 			<p class="copyright">
 				copyright &copy; david curtis <span id="date"></span>. all rights reserved

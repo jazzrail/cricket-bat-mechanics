@@ -24,7 +24,7 @@ Yes, lose the DC logo.  I don’t want to be sued by Batman and Superman
 
 
 [can we change the font used for the body text, it is a bit stretched and hard to read]
-// changed tio RToboto and removed letter-spacing
+// changed tio Roboto and removed letter-spacing
 
 
 
